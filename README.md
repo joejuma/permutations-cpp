@@ -5,7 +5,8 @@
 Provides a simple set of permutation functions, for generating permutations from a set of possible values.
 
 ## Usage
-1. Create a nested vector of values of the type of data you want. See the following code snippet for an example.
+1. Include `permutations.h` in your project.
+2. Create a nested vector of values of the type of data you want. See the following code snippet for an example.
 ```
     std::vector<int> A = { 0, 1, 2 };
 	std::vector<int> B = { 3, 4, 5, 6 };
@@ -14,9 +15,9 @@ Provides a simple set of permutation functions, for generating permutations from
 
 	std::vector<std::vector<int>> values = { A, B, C, D };
 ```
-2. Create a results vector.
-3. Pass these into the `Permutation.permutations()` function.
-4. The results vector should now be full of vectors representing each possible permutation.
+3. Create a results vector.
+4. Pass these into the `Permutation.permutations()` function.
+5. The results vector should now be full of vectors representing each possible permutation.
 
 ## License
 Please see the LICENSE.md file for more information.
