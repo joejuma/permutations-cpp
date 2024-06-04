@@ -8,7 +8,7 @@ Provides a simple set of permutation functions, for generating permutations from
 1. Include `permutations.h` in your project.
 2. Create a nested vector of values of the type of data you want. See the following code snippet for an example.
 ```
-    std::vector<int> A = { 0, 1, 2 };
+	std::vector<int> A = { 0, 1, 2 };
 	std::vector<int> B = { 3, 4, 5, 6 };
 	std::vector<int> C = { 7, 8 };
 	std::vector<int> D = { 9 };
